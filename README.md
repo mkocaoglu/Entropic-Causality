@@ -9,11 +9,11 @@ pair0001.txt is taken from CauseEffectPairs repository at https://webdav.tuebing
 HOW TO RUN:
 To test on this cause effect pair, download entropicCausalPair.py and pair0001.txt into the same folder and run 
 
-$ python entropicCausalPair.py pair0001.txt
+	python entropicCausalPair.py pair0001.txt
 
 To test it on every (scalar) causal pair in the Tuebingen dataset, download every pair from https://webdav.tuebingen.mpg.de/cause-effect/ into the same folder and run
 
-$ python Tuebingen_loop.py
+	python Tuebingen_loop.py
 
 You can either call the function on an arbitrary file input.txt by importing the code as follows from your script
 
@@ -22,6 +22,6 @@ You can either call the function on an arbitrary file input.txt by importing the
 
 or by simply running 
 
-$ python entropicCausalPair.py input.txt
+	python entropicCausalPair.py input.txt
 
 from the terminal.
