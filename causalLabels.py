@@ -1,0 +1,26 @@
+import numpy as np
+XCausesY = np.zeros((105,1))
+XCausesY[1:46]=1;
+XCausesY[47:51]=-1;
+XCausesY[56:63]=-1;
+XCausesY[64:67]=1;
+XCausesY[68:69]=-1;
+XCausesY[70]=1;
+XCausesY[72]=1;
+XCausesY[73]=-1;
+XCausesY[74]=1;
+XCausesY[75]=-1;
+XCausesY[76]=1;
+XCausesY[77]=-1;
+XCausesY[78]=1;
+XCausesY[79:80]=-1;
+XCausesY[81:83]=0;
+XCausesY[84]=-1;
+XCausesY[85:88]=1;
+XCausesY[89:90]=-1;
+XCausesY[91]=1;
+XCausesY[92]=-1;
+XCausesY[94:97]=1;
+XCausesY[98]=1;
+XCausesY[99]=-1;
+XCausesY[100:104]=1;
